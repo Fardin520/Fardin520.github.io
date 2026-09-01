@@ -30,10 +30,12 @@
         .skill-tag { display: inline-block; background: #dbeafe; color: #1e40af; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin: 5px 5px 5px 0; }
         .services { background: #fff; text-align: center; }
         .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
-        .service-card { padding: 30px; border: 1px solid #e2e8f0; border-radius: 10px; transition: transform 0.3s, box-shadow 0.3s; text-align: left; }
+        .service-card { padding: 30px; border: 1px solid #e2e8f0; border-radius: 10px; transition: transform 0.3s, box-shadow 0.3s; text-align: left; display: flex; flex-direction: column; }
         .service-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
         .service-card h3 { color: #2563eb; }
         .tech-stack { font-size: 0.85rem; color: #64748b; font-weight: 600; display: block; margin-bottom: 10px; }
+        .project-link { margin-top: auto; padding-top: 15px; color: #2563eb; font-weight: 600; font-size: 0.95rem; transition: color 0.3s; display: inline-block; }
+        .project-link:hover { color: #1d4ed8; text-decoration: underline; }
         .contact { text-align: center; }
         .contact-box { background: #1e293b; color: #fff; padding: 50px; border-radius: 15px; max-width: 700px; margin: 0 auto; }
         .contact-box h2 { color: #fff; }
@@ -73,7 +75,7 @@
                 <p>I am a BSc Computer Science and Engineering student at East West University, expected to graduate in Dec 2026. I have a solid grasp of backend architecture, digital image processing, and transforming raw text data into structured insights.</p>
                 <p>My goal is to apply my analytical skills to solve complex problems as a Data Analyst and AI Engineer.</p>
                 <div style="margin-top: 20px;">
-                    <a href="https://github.com/Fardin520" target="_blank" class="btn" style="background: #333; margin-right: 10px;">GitHub</a>
+                    <a href="https://github.com/Fardin520" target="_blank" class="btn" style="background: #333; margin-right: 10px;">GitHub Profile</a>
                     <a href="https://linkedin.com/in/raiyan-fardin" target="_blank" class="btn" style="background: #0077b5;">LinkedIn</a>
                 </div>
             </div>
@@ -103,16 +105,25 @@
                     <h3>E-Commerce Marketplace Analysis</h3>
                     <span class="tech-stack">Python, SQL, Power BI, Pandas</span>
                     <p>Designed an interactive dashboard to visualize KPIs, sales growth, and consumer trends. Wrote optimized SQL queries to extract metrics and utilized Python for exploratory data analysis.</p>
+                    <a href="https://github.com/Fardin520/E-commerce-Marketplace-Performance-Analysis-Dashboard" target="_blank" class="project-link">Link: View Repository & Dashboard ➔</a>
                 </div>
                 <div class="service-card">
                     <h3>Smart ATS Backend</h3>
                     <span class="tech-stack">Python, FastAPI, Text Analytics</span>
                     <p>Engineered a robust REST API for an Applicant Tracking System. Developed automated parsing scripts to extract skills and contact details from raw text data securely.</p>
+                    <a href="https://github.com/Fardin520/Smart_ATS_Backend" target="_blank" class="project-link">Link: View Repository ➔</a>
                 </div>
                 <div class="service-card">
                     <h3>E-Commerce Review Analysis</h3>
                     <span class="tech-stack">Python, NLP, NLTK</span>
                     <p>Built an NLP intelligence system utilizing tokenization, lemmatization, and sentiment evaluation to turn raw consumer feedback into structured product insights.</p>
+                    <!-- Link intentionally omitted here as it was not present on the original resume -->
+                </div>
+                <div class="service-card">
+                    <h3>Histogram Matching & Visualization</h3>
+                    <span class="tech-stack">Python, Image Processing, OpenCV</span>
+                    <p>Programmed image enhancement algorithms specializing in pixel-level transformations and contrast matching protocols, mapped via frequency distribution overlays.</p>
+                    <a href="https://github.com/Fardin520" target="_blank" class="project-link">Link: View Processing Code ➔</a>
                 </div>
             </div>
         </div>
