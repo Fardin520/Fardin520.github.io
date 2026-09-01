@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raiyan Fardin Haque | AI & Data Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+        a { text-decoration: none; color: inherit; }
+        .text-primary { color: #2563eb; }
+        h1, h2, h3 { color: #1e293b; margin-bottom: 15px; }
+        p { color: #475569; margin-bottom: 20px; font-size: 1.05rem; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        section { padding: 80px 0; }
+        nav { background: #fff; padding: 20px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+        nav .container { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: #2563eb; }
+        .nav-links { list-style: none; display: flex; gap: 20px; }
+        .nav-links li a { font-weight: 600; transition: color 0.3s; }
+        .nav-links li a:hover { color: #2563eb; }
+        .hero { text-align: center; background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); padding: 120px 20px; }
+        .hero h1 { font-size: 3rem; }
+        .hero p { max-width: 650px; margin: 0 auto 30px auto; }
+        .btn { display: inline-block; background: #2563eb; color: #fff; padding: 12px 30px; border-radius: 25px; font-weight: 600; transition: background 0.3s; }
+        .btn:hover { background: #1d4ed8; }
+        .about-skills { display: flex; gap: 50px; flex-wrap: wrap; }
+        .about, .skills { flex: 1; min-width: 300px; }
+        .skill-tag { display: inline-block; background: #dbeafe; color: #1e40af; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin: 5px 5px 5px 0; }
+        .services { background: #fff; text-align: center; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
+        .service-card { padding: 30px; border: 1px solid #e2e8f0; border-radius: 10px; transition: transform 0.3s, box-shadow 0.3s; text-align: left; }
+        .service-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        .service-card h3 { color: #2563eb; }
+        .tech-stack { font-size: 0.85rem; color: #64748b; font-weight: 600; display: block; margin-bottom: 10px; }
+        .contact { text-align: center; }
+        .contact-box { background: #1e293b; color: #fff; padding: 50px; border-radius: 15px; max-width: 700px; margin: 0 auto; }
+        .contact-box h2 { color: #fff; }
+        .contact-box p { color: #cbd5e1; }
+        footer { text-align: center; padding: 20px; background: #fff; font-size: 0.9rem; color: #94a3b8; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2rem; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">Raiyan.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span class="text-primary">Raiyan Fardin Haque</span></h1>
+            <p>Computer Science major specializing in Data Analysis, Machine Learning, and Natural Language Processing (NLP). Passionate about building intelligent backend architectures and designing data pipelines.</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <div class="about-skills">
+            <div class="about">
+                <h2>About Me</h2>
+                <p>I am a BSc Computer Science and Engineering student at East West University, expected to graduate in Dec 2026. I have a solid grasp of backend architecture, digital image processing, and transforming raw text data into structured insights.</p>
+                <p>My goal is to apply my analytical skills to solve complex problems as a Data Analyst and AI Engineer.</p>
+                <div style="margin-top: 20px;">
+                    <a href="https://github.com/Fardin520" target="_blank" class="btn" style="background: #333; margin-right: 10px;">GitHub</a>
+                    <a href="https://linkedin.com/in/raiyan-fardin" target="_blank" class="btn" style="background: #0077b5;">LinkedIn</a>
+                </div>
+            </div>
+            <div class="skills">
+                <h2>Technical Skills</h2>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">SQL (MySQL, PostgreSQL)</span>
+                <span class="skill-tag">Power BI</span>
+                <span class="skill-tag">FastAPI & Flask</span>
+                <span class="skill-tag">Pandas & NumPy</span>
+                <span class="skill-tag">Scikit-Learn</span>
+                <span class="skill-tag">NLP & NLTK</span>
+                <span class="skill-tag">OpenCV</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">JavaScript / HTML / CSS</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="services">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <p>Demonstrated success in data visualization, REST APIs, and text analytics.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>E-Commerce Marketplace Analysis</h3>
+                    <span class="tech-stack">Python, SQL, Power BI, Pandas</span>
+                    <p>Designed an interactive dashboard to visualize KPIs, sales growth, and consumer trends. Wrote optimized SQL queries to extract metrics and utilized Python for exploratory data analysis.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Smart ATS Backend</h3>
+                    <span class="tech-stack">Python, FastAPI, Text Analytics</span>
+                    <p>Engineered a robust REST API for an Applicant Tracking System. Developed automated parsing scripts to extract skills and contact details from raw text data securely.</p>
+                </div>
+                <div class="service-card">
+                    <h3>E-Commerce Review Analysis</h3>
+                    <span class="tech-stack">Python, NLP, NLTK</span>
+                    <p>Built an NLP intelligence system utilizing tokenization, lemmatization, and sentiment evaluation to turn raw consumer feedback into structured product insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact container">
+        <div class="contact-box">
+            <h2>Let's Connect</h2>
+            <p>I am currently open to freelance opportunities, data analysis roles, and AI engineering projects.</p>
+            <br>
+            <a href="mailto:raiyanfardin616@gmail.com" class="btn" style="background: #fff; color: #1e293b;">raiyanfardin616@gmail.com</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Raiyan Fardin Haque. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
